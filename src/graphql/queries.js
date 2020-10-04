@@ -14,23 +14,6 @@ export const GET_LANDINGPAGE = gql`{
     }
 }`;
 
-export const GET_HIGHLIGHTS = gql`{
-    listHighlights {
-        data{
-            title
-            subtitle
-            introduction
-            img1
-            info1
-            img2
-            info2
-            img3
-            info3
-            closing
-            uid
-        }
-    }
-}`
 
 export const GET_MODEL_TEXT_MIT_BILD = gql`{
  listModelTextMitBilds {
