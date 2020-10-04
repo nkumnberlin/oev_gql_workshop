@@ -22,7 +22,7 @@ const Text = styled.div`
     padding-right: 3rem;
 `;
 
-function LandingPage({landingPage, loadHighlights, loadTextMitBild}: any) {
+function LandingPage({landingPage,  loadTextMitBild}: any) {
     return (
         <div className="library">
             <Grid container justify="center">
@@ -43,11 +43,7 @@ function LandingPage({landingPage, loadHighlights, loadTextMitBild}: any) {
                         Lade mehr Spongy Stuff
                     </Button>
                 </Grid>
-                <Grid item container justify={"center"} xs={6} onClick={() => loadHighlights()}>
-                    <Button variant="contained" color="primary">
-                        Lade NOCH mehr Spongy Stuff
-                    </Button>
-                </Grid>
+
             </Grid>
         </div>
     );
