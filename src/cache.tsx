@@ -27,8 +27,8 @@ export const cache:InMemoryCache = new InMemoryCache({
 });
 
 const initalLandingValue: LandingPageType = [{
-  title: '',
-  subtitle: '',
+  title: 'Landing Page',
+  subtitle: 'here is space for mock data',
   introduction: [{}],
   img1: '',
   text: [{}],

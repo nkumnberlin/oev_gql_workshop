@@ -2,6 +2,7 @@ import React from 'react';
 import {Grid, Button} from '@material-ui/core'
 import styled from 'styled-components';
 import RichTextConverter from '../utils/RichTextConverter';
+import {landingPagesVar} from "../cache";
 
 const Header = styled.h1`
     text-align: center;
@@ -22,7 +23,8 @@ const Text = styled.div`
     padding-right: 3rem;
 `;
 
-function LandingPage({landingPage,  loadTextMitBild}: any) {
+function LandingPage({loadTextMitBild}: any) {
+    const landingPage = landingPagesVar()[0]
     return (
         <div className="library">
             <Grid container justify="center">
